@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MyHome.Application.Schedule.CalendarEvents.Commands.DeleteCalendarEvent;
 using MyHome.Application.Schedule.CalendarEvents.Commands.UpdateCalendarEvent;
 using MyHome.Application.Schedule.CalendarEvents.Queries.GetCalendarEvent;
@@ -12,7 +11,6 @@ using MyHome.Application.Common.Models.Pagination;
 
 namespace MyHome.Dashboard.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CalendarEventsController : ApiController
