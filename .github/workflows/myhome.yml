@@ -1,0 +1,21 @@
+name: Publish MyHome-Schedule
+
+on:
+  push:
+    tags:
+    - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Publish new MyHome-Schedule version
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          registry: docker.pkg.github.com
+          name: docker.pkg.github.com/theofilis/MyHome-Schedule
+          username: theofilis
+          password: ${{ secrets.GITHUB_TOKEN }}
+          tag_semver: true
+          cache: true

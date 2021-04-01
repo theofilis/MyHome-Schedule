@@ -1,0 +1,33 @@
+@path = https://localhost:5001
+
+###
+
+GET {{path}}/api/Calendar
+
+###
+
+POST {{path}}/api/Calendar
+Content-Type: application/json
+{
+    "Title": "",
+    "Color": "",
+    "BackgroundColor": ""
+}
+
+###
+
+GET {{path}}/api/Calendar/1
+
+###
+
+PUT {{path}}/api/Calendar/1
+Content-Type: application/json
+{
+    "Title": "",
+    "Color": "",
+    "BackgroundColor": ""
+}
+
+###
+
+DELETE {{path}}/api/Calendar/1

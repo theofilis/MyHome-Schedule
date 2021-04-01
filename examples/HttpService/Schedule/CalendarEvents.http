@@ -1,0 +1,41 @@
+@path = https://localhost:5001
+
+###
+
+GET {{path}}/api/CalendarEvents
+
+###
+
+POST {{path}}/api/CalendarEvents
+Content-Type: application/json
+{
+    "Title": "",
+    "AllDay": true,
+    "Start": "2020-01-10T10:00:00Z",
+    "End": "2020-01-10T10:00:00Z",
+    "Title": "",
+    "Url": "http",
+    "CalendarId": 10
+}
+
+###
+
+GET {{path}}/api/CalendarEvents/1
+
+###
+
+PUT {{path}}/api/CalendarEvents/1
+Content-Type: application/json
+{
+    "Title": "",
+    "AllDay": true,
+    "Start": "2020-01-10T10:00:00Z",
+    "End": "2020-01-10T10:00:00Z",
+    "Title": "",
+    "Url": "http",
+    "CalendarId": 10
+}
+
+###
+
+DELETE {{path}}/api/CalendarEvents/1
