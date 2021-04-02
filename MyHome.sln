@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHome.HttpService", "src\E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHome.Application.Schedule", "src\UseCases\Schedule\MyHome.Application.Schedule.csproj", "{FE119B96-5D94-46C4-97DD-59E51029EFD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHome.Application.IntegrationTests", "tests\Application.IntegrationTests\MyHome.Application.IntegrationTests.csproj", "{012DE73F-1145-498F-BBAB-FB6359F2393B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{FE119B96-5D94-46C4-97DD-59E51029EFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE119B96-5D94-46C4-97DD-59E51029EFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE119B96-5D94-46C4-97DD-59E51029EFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012DE73F-1145-498F-BBAB-FB6359F2393B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012DE73F-1145-498F-BBAB-FB6359F2393B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012DE73F-1145-498F-BBAB-FB6359F2393B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012DE73F-1145-498F-BBAB-FB6359F2393B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{9073E06E-10B1-484A-BF49-4508ED2F8A08} = {6F0E9A8B-C113-4DF7-873A-CE56965A6034}
 		{983A0447-0613-473A-B5D8-4EAD9790A800} = {0CACC21B-480C-489C-8E66-F6552EF5682C}
 		{FE119B96-5D94-46C4-97DD-59E51029EFD5} = {A602B75B-EA47-42E4-86E1-383A298B2EDF}
+		{012DE73F-1145-498F-BBAB-FB6359F2393B} = {C5820CA3-A66A-4014-9064-4BCD366A80F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C9DE667-1AA6-4FA4-8AAF-666F37DABC60}
